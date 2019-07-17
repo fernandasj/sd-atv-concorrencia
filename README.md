@@ -9,16 +9,16 @@ Para resolver a atividade, foram implementados vários que iram utilizar Threads
 **Campos:** ID e NOME
 
 # Resultados obtidos:
-* Número de Threads utilizado: 100
+* Número de Threads: 100
 
 * Tempo de resposta:
 
 ```
-- SelectService: 16ms
+1° - SelectService: 16ms
 
-- SimpleService: 3420ms
+2° - UseThreadService: 70ms
 
-- UseThreadService: 70ms
+3° - SimpleService: 3420ms
 
-- BlockingQueuePutService: 4233ms
+4° - BlockingQueuePutService: 4233ms
 ```
